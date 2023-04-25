@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 50%;
+  }
+}
+
+.count-type {
+  font-family: roboto;
+  color: #334155;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-type {
+    font-size: 29px;
+  }
+}
+.button {
+  color: #334155;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.about {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    font-size: 14px;
+    text-align: center;
+  }
+}
